@@ -1,7 +1,8 @@
 # AWS-MultiTier-Architecture
 Using EC2 instances to deploy Tomcat, MySQL, RabbitMQ, and Memcached server; hosted on a Route53 DNS. Incorporates ELB's, SG's, ASG, &amp; S3.
 
-![IMG_38EA71B4B7D5-1](https://github.com/andreapeterson/AWS-MultiTier-Architecture/assets/134665743/d78b928b-7d29-4407-9b91-37a92c33ee60)
+
+![IMG_A4E47AD91685-1](https://github.com/andreapeterson/AWS-MultiTier-Architecture/assets/134665743/d5e9d2fe-76d8-4c49-8342-1fad851a8d92)
 
 
 Following the schema above, I deployed a multi-tier web application for no one other than my beloved dog. I am doing a course from the wonderful Imran Teli, so the code above comes mostly from [here](https://github.com/devopshydclub/vprofile-project/tree/aws-LiftAndShift). I edited the 'applications.properties' file so my Tomcat instances can have the addresses for my specific backend servers (that match the Route53 Private Zone records for the backend instances IP addresses) as well as customized the 'welcome.jsp' and images folder to add content specific for my pup. 
