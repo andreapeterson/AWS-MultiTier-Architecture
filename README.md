@@ -1,5 +1,5 @@
 # AWS-MultiTier-Architecture
-Using EC2 instances to deploy Tomcat, MySQL, RabbitMQ, and Memcached servers; hosted on a Route53 DNS. Incorporates ELB's, SG's, ASG, &amp; S3.
+Using EC2 instances to deploy Tomcat, MySQL, RabbitMQ, and Memcached servers to create a webpage hosted on Route53 DNS. Incorporates ELB's, SG's, ASG, &amp; S3.
 
 
 ![IMG_A4E47AD91685-1](https://github.com/andreapeterson/AWS-MultiTier-Architecture/assets/134665743/d5e9d2fe-76d8-4c49-8342-1fad851a8d92)
